@@ -1,0 +1,9 @@
+Databases/
+Memoria/
+*.pyc
+logs/
+Models/
+venv/
+.vscode/
+papers/
+.DS_Store

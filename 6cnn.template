@@ -1,0 +1,12 @@
+cnn_layers  6
+cnn_activation  relu
+cnn_padding same
+num_kernels_per_layer   128,128,256,256,512,512
+kernel_sizes    8,8,6,6,4,4
+
+pooling_layers  3
+pooling_layers_sizes    3,3,2
+
+hdd_layers  4
+hidden_layers_sizes 2048,1024,512,32
+hdd_activation  relu
